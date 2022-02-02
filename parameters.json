@@ -1,0 +1,29 @@
+{
+	"shell_model":
+	{
+		"number_of_shells-N" : 24,
+		"shell_ratio-lambda" : 1.618,
+		"viscosity-nu" : "1e-3"
+	},
+
+	"real_space":
+	{
+		"number_of_length_scales" : 50,
+		"smallest_length_scale-l0" : "1e-6",
+		"grid_size-gridSize": 1024
+	},
+
+	"statistics":
+	{
+		"max_number_of_snapshots-max_it" : 10000,
+		"max_number_of_configurations-max_ic" : 1
+	},
+
+	"read_write":
+	{
+		"attempt_number": 1100,
+		"input_dir": "/home/skrathor/jensen/input/nu-3/",
+		"output_dir": "/scratch/skrathor/jensen/output/nu-3/",
+		"starting_plane_number": 0
+	}
+}
